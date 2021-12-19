@@ -135,10 +135,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libqdMetaData
 
-# LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
-
 # Display
 PRODUCT_PACKAGES += \
     libion \
@@ -147,7 +143,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtinyalsa
 
-#Telephony-ext
+# Telephony-ext
 PRODUCT_PACKAGES += telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
 
@@ -168,10 +164,6 @@ PRODUCT_PACKAGES += \
 #    tcmiface \
 #    WfdCommon \
 #    qcnvitems
-
-ROM_BUILDTYPE := GAPPS
-TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
 
 # Video seccomp policy files
 PRODUCT_COPY_FILES += \
