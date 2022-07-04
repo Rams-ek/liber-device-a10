@@ -76,7 +76,7 @@ PRODUCT_SYSTEM_NAME := MotoOneFusion+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DISC="liber_retail-user 10 QPI30.73-16-5-4 874f7 release-keys"
+    PRIVATE_BUILD_DESC="liber_retail-user 10 QPIS30.73-33-14 6b502e release-keys"
 
 BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
 
