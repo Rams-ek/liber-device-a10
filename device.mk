@@ -135,6 +135,10 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libqdMetaData
 
+# MotoActions
+PRODUCT_PACKAGES += \
+    MotoActions
+
 # Display
 PRODUCT_PACKAGES += \
     libion \
