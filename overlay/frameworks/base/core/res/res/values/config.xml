@@ -27,9 +27,8 @@
     <bool name="config_smart_battery_available">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
-    <color name="config_defaultNotificationColor">#ffff0000</color>
-    <bool name="config_intrusiveNotificationLed">true</bool>
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <bool name="config_intrusiveNotificationLed">false</bool>
+    <bool name="config_intrusiveBatteryLed">false</bool>
     <bool name="config_multiColorBatteryLed">false</bool>
     <bool name="config_multiColorNotificationLed">false</bool>
     <dimen name="config_dialogCornerRadius">6dp</dimen>
